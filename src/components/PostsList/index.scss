@@ -1,0 +1,17 @@
+.section-posts {
+    .posts-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 50px;
+        margin-bottom: 50px;
+    }
+
+    .btn-wrap {
+        display: flex;
+        justify-content: center;
+
+        .MuiButton-root[disabled] {
+            opacity: .5;
+        }
+    }
+}
